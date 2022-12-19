@@ -54,6 +54,10 @@ header {
   min-height: 100px;
 }
 
+.card-body textarea {
+  user-select: all;
+}
+
 .card-footer {
   text-align: center;
 }
