@@ -11,7 +11,8 @@
     <div class="wrapper">
       <header>
         <h1>Password Generator</h1>
-        <h2 style="font-size: 16px;">Click the red button below to begin. A series of prompts will allow you to customize how secure you want your password to be. Then copy the text from the box and use it wherever you like!</h2>
+        <h2 style="font-size: 18px;">Click the red button below to begin generating your 20-character password. A series of prompts will allow you to customize how secure you want your password to be.</h2>
+        <h3 style="font-size: 16px;">Note: Generated passwords will not contain the " " whitespace character.</h3>
       </header>
       <div class="card">
         <div class="card-header">
@@ -21,6 +22,7 @@
           <textarea
             readonly
             id="password"
+            onClick="selectAll('password')"
             placeholder="Your Secure Password"
             aria-label="Generated Password"
           ></textarea>
