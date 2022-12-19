@@ -1,4 +1,13 @@
-// Assignment code here
+// prompts:
+// capital letters
+// lowercase letters
+// numbers
+// special characters
+
+
+function generatePassword() {
+  return "lol";
+}
 
 
 // Get references to the #generate element
